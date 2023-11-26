@@ -1,0 +1,59 @@
+GOTO X
+- goes to line x
+
+EQU A B C
+- $A == $B -> $C
+
+NOT A B 
+- not $A -> $B
+
+BIG A B C
+- $A > $B -> $C
+
+SMA A B C
+- $A < $B -> $C
+
+SKP A
+- skip next line if (A > 0)
+
+ADD A B C
+- $A + $B -> $C
+
+SUB A B C
+- $A - $B -> $C
+
+MUL A B C
+- $A * $B -> $C
+
+DIV A B C
+- $A / $B -> $C
+
+STO A B
+- B -> $A
+
+INC A
+- $A + 1 -> $A
+
+PRN A
+- displays $A (no new line)
+
+PRL A
+- displays $A (new line)
+
+PRNC A
+- displays $A as a character (no new line)
+
+PRLC A
+- displays $A as a character (new line)
+
+RND A
+- rounds $A
+
+MOD A B C
+- $A % $B -> $C
+
+SYSTEM A
+- Runs A from as a separate file
+
+END
+- ends the program
